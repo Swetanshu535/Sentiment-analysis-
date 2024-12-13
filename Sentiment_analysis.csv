@@ -1,0 +1,39 @@
+sentiment,Time_of_Tweet,Age_of_User,Country,Population ,Land_Area ,Density 
+neutral,morning,0-20,Afghanistan,38928346,652860,60
+positive,noon,21-30,Albania,2877797,27400,105
+negative,night,31-45,Algeria,43851044,2381740,18
+positive,morning,46-60,Andorra,77265,470,164
+positive,noon,60-70,Angola,32866272,1246700,26
+positive,night,70-100,Antigua and Barbuda,97929,440,223
+negative,morning,0-20,Argentina,45195774,2736690,17
+negative,noon,21-30,Armenia,2963243,28470,104
+neutral,night,31-45,Australia,25499884,7682300,3
+neutral,morning,46-60,Austria,9006398,7682300,109
+negative,noon,60-70,Azerbaijan,10139177,82658,123
+neutral,night,70-100,Bahamas,393244,10010,39
+neutral,morning,0-20,Bahrain,1701575,760,2239
+negative,noon,21-30,Bangladesh,164689383,130170,1265
+negative,night,31-45,Barbados,287375,430,668
+negative,morning,46-60,Belarus,9449323,202910,47
+negative,noon,60-70,Belgium,11589623,30280,383
+negative,night,70-100,Belize,397628,22810,17
+positive,morning,0-20,Benin,12123200,112760,108
+neutral,noon,21-30,Bhutan,771608,1083300,20
+negative,night,31-45,Bolivia,11673021,1083300,11
+negative,morning,46-60,Bosnia and Herzegovina,3280819,51000,64
+negative,noon,60-70,Botswana,2351627,566730,4
+neutral,night,70-100,Brazil,212559417,8358140,25
+negative,morning,0-20,Brunei,437479,5270,83
+positive,noon,21-30,Bulgaria,6948445,108560,64
+neutral,night,31-45,Burkina Faso,20903273,273600,76
+neutral,morning,46-60,Burundi,11890784,25680,463
+positive,noon,60-70,Côte d'Ivoire,26378274,318000,83
+negative,night,70-100,Cabo Verde,555987,318000,138
+neutral,morning,0-20,Cambodia,16718965,176520,95
+neutral,noon,21-30,Cameroon,26545863,472710,56
+neutral,night,31-45,Canada,37742154,9093510,4
+neutral,morning,46-60,Central African Republic,4829767,622980,8
+neutral,noon,60-70,Chad,16425864,1259200,13
+positive,night,70-100,Chile,19116201,743532,26
+positive,morning,0-20,China,1439323776,9388211,153
+neutral,noon,21-30,Colombia,50882891,1109500,46

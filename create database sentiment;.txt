@@ -1,0 +1,27 @@
+create database sentiment;
+use sentiment;
+
+select * from sentiment_analysis;
+
+-- Show the time of tweet with postive sentiment 
+select Time_of_Tweet,Sentiment
+from sentiment_analysis
+where sentiment= "Positive";
+-- for countries display the data population by adding them 
+select country,floor(sum(Population)) as total_population
+from sentiment_analysis
+Group by country;
+
+-- For noon time tweet show the average of land area
+select sentiment,ceil(avg(Land_area)) as avg_land_area
+from sentiment_analysis 
+where Time_of_Tweet="noon"
+group by sentiment;
+
+-- in morning show the number of density 
+select Time_of_Tweet,Density
+from sentiment_analysis 
+where time_of_tweet="Morning";
+-- segregate the time of tweet by dense ranking the data 
+select time_of_tweet,dense_rank() over (Order by Time_of_Tweet)
+from sentiment_analysis;
